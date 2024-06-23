@@ -1,0 +1,17 @@
+//Human age
+let myAge=20;
+//The first two years of a dog’s life count as 10.5 dog years each.
+let earlyYears=2;
+earlyYears*=earlyYears;
+//Since we already accounted for the first two years, take the myAge variable, and subtract 2 from it.
+let laterYears=myAge-2
+//Each year following equates to 4 dog years.
+laterYears*=4;
+console.log(`Early Years:${earlyYears}`);
+console.log(`Later Years:${laterYears}`);
+//Human age in dog years
+myAgeInDogYears=earlyYears+laterYears;
+//Human name 
+let myName='Nayana';
+//Displaying
+console.log(`My name is ${myName}, I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`)
